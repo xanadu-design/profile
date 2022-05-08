@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background: url("images/pattern-background-desktop.svg") no-repeat;
+    background-size:100% 100%;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .card {
+    margin: 7% auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 28.125rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card-body {
+    padding: 8% 13%;
+  }
+
+  .card-title {
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: hsl(223, 47%, 23%);
+    line-height: 2;
+  }
+
+  /* Pricing Section */
+
+  .pricing {
+    background-color: hsl(225, 100%, 98%);
+    padding: 5% 3%;
+    border-radius: 0.625rem;
+  }
+
+
+  .plan {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+  }
+
+  .change-plan {
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+    margin: auto;
+    font-weight: 700;
+  }
+
+  .change-plan:hover {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+
+  /* Payment button */
+
+  .pay {
+    background-color: hsl(245, 75%, 52%);
+    margin: 10% 0 7%;
+    color: hsl(225, 100%, 98%);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4%;
+    border-radius: 0.625rem;
+  }
+
+  .pay:hover {
+    background-color: hsl(228, 45%, 44%);
+  }
+
+  /* Cancel button */
+
+  .cancel-order {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+
+  }
+
+  .cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+  }
+
+  /* Attribution */
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  /* Media Queries */
+  @media only screen and (max-width:375px) {
+
+    p,
+    .plan,
+    .change-plan {
+      font-size: 16px;
+    }
+
+    .card {
+      width: 20rem;
+      max-width: 100%;
+    }
+
+    .card-body {
+      padding: 8%;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+    }
+
+    .pricing {
+      justify-content: center;
+    }
+  }
